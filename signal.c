@@ -9,7 +9,7 @@ int g = 0;
 
 void handler(int signum) { //signal handler
   printf("Hello World!\n");
-  g = 1;
+	g = 1;
 	alarm(1); //Schedule a SIGALRM for 1 second
 }
 
